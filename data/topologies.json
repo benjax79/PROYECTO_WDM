@@ -1,0 +1,1408 @@
+{
+  "NSFNet_14_Transport": {
+    "network_name": "NSFNet_14_Transport",
+    "band": "C",
+    "total_slots": 320,
+    "slot_width_ghz": 12.5,
+    "guard_band_slots": 1,
+    "span_length_km": 100.0,
+    "nodes": [
+      {
+        "id": 0,
+        "name": "N0",
+        "city": "Seattle",
+        "pos": [
+          1.0,
+          4.2
+        ]
+      },
+      {
+        "id": 1,
+        "name": "N1",
+        "city": "Palo Alto",
+        "pos": [
+          0.6,
+          2.8
+        ]
+      },
+      {
+        "id": 2,
+        "name": "N2",
+        "city": "San Diego",
+        "pos": [
+          1.2,
+          1.4
+        ]
+      },
+      {
+        "id": 3,
+        "name": "N3",
+        "city": "Salt Lake City",
+        "pos": [
+          2.4,
+          2.9
+        ]
+      },
+      {
+        "id": 4,
+        "name": "N4",
+        "city": "Boulder",
+        "pos": [
+          3.5,
+          2.5
+        ]
+      },
+      {
+        "id": 5,
+        "name": "N5",
+        "city": "Houston",
+        "pos": [
+          3.8,
+          1.0
+        ]
+      },
+      {
+        "id": 6,
+        "name": "N6",
+        "city": "Lincoln",
+        "pos": [
+          4.7,
+          2.6
+        ]
+      },
+      {
+        "id": 7,
+        "name": "N7",
+        "city": "Champaign",
+        "pos": [
+          5.7,
+          3.2
+        ]
+      },
+      {
+        "id": 8,
+        "name": "N8",
+        "city": "Pittsburgh",
+        "pos": [
+          6.9,
+          3.1
+        ]
+      },
+      {
+        "id": 9,
+        "name": "N9",
+        "city": "Atlanta",
+        "pos": [
+          5.6,
+          0.9
+        ]
+      },
+      {
+        "id": 10,
+        "name": "N10",
+        "city": "Ann Arbor",
+        "pos": [
+          6.3,
+          4.5
+        ]
+      },
+      {
+        "id": 11,
+        "name": "N11",
+        "city": "Ithaca",
+        "pos": [
+          7.6,
+          4.4
+        ]
+      },
+      {
+        "id": 12,
+        "name": "N12",
+        "city": "Princeton",
+        "pos": [
+          8.3,
+          2.4
+        ]
+      },
+      {
+        "id": 13,
+        "name": "N13",
+        "city": "College Park",
+        "pos": [
+          7.6,
+          1.2
+        ]
+      }
+    ],
+    "links": [
+      {
+        "id": "e0_1",
+        "source": 0,
+        "target": 1,
+        "length_km": 1100.0,
+        "spans": 11,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e0_2",
+        "source": 0,
+        "target": 2,
+        "length_km": 1600.0,
+        "spans": 16,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e0_7",
+        "source": 0,
+        "target": 7,
+        "length_km": 2800.0,
+        "spans": 28,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e1_2",
+        "source": 1,
+        "target": 2,
+        "length_km": 600.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e1_3",
+        "source": 1,
+        "target": 3,
+        "length_km": 600.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e2_5",
+        "source": 2,
+        "target": 5,
+        "length_km": 2000.0,
+        "spans": 20,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e3_4",
+        "source": 3,
+        "target": 4,
+        "length_km": 600.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e3_10",
+        "source": 3,
+        "target": 10,
+        "length_km": 2400.0,
+        "spans": 24,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e4_5",
+        "source": 4,
+        "target": 5,
+        "length_km": 1100.0,
+        "spans": 11,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e4_6",
+        "source": 4,
+        "target": 6,
+        "length_km": 800.0,
+        "spans": 8,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e5_9",
+        "source": 5,
+        "target": 9,
+        "length_km": 1100.0,
+        "spans": 11,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e5_13",
+        "source": 5,
+        "target": 13,
+        "length_km": 2000.0,
+        "spans": 20,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e6_7",
+        "source": 6,
+        "target": 7,
+        "length_km": 700.0,
+        "spans": 7,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e7_8",
+        "source": 7,
+        "target": 8,
+        "length_km": 700.0,
+        "spans": 7,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e8_9",
+        "source": 8,
+        "target": 9,
+        "length_km": 900.0,
+        "spans": 9,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e8_11",
+        "source": 8,
+        "target": 11,
+        "length_km": 300.0,
+        "spans": 3,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e8_12",
+        "source": 8,
+        "target": 12,
+        "length_km": 500.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e10_11",
+        "source": 10,
+        "target": 11,
+        "length_km": 600.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e10_12",
+        "source": 10,
+        "target": 12,
+        "length_km": 800.0,
+        "spans": 8,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e11_13",
+        "source": 11,
+        "target": 13,
+        "length_km": 500.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e12_13",
+        "source": 12,
+        "target": 13,
+        "length_km": 300.0,
+        "spans": 3,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      }
+    ],
+    "base_demands_D0": [
+      {
+        "id": "d_0_12",
+        "source": 0,
+        "target": 12,
+        "base_bitrate_gbps": 400
+      },
+      {
+        "id": "d_2_11",
+        "source": 2,
+        "target": 11,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_1_12",
+        "source": 1,
+        "target": 12,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_1_11",
+        "source": 1,
+        "target": 11,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_0_8",
+        "source": 0,
+        "target": 8,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_2_13",
+        "source": 2,
+        "target": 13,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_1_8",
+        "source": 1,
+        "target": 8,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_3_12",
+        "source": 3,
+        "target": 12,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_4_11",
+        "source": 4,
+        "target": 11,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_4_12",
+        "source": 4,
+        "target": 12,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_0_3",
+        "source": 0,
+        "target": 3,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_1_4",
+        "source": 1,
+        "target": 4,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_2_4",
+        "source": 2,
+        "target": 4,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_3_7",
+        "source": 3,
+        "target": 7,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_4_8",
+        "source": 4,
+        "target": 8,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_5_8",
+        "source": 5,
+        "target": 8,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_5_12",
+        "source": 5,
+        "target": 12,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_6_12",
+        "source": 6,
+        "target": 12,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_7_12",
+        "source": 7,
+        "target": 12,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_7_13",
+        "source": 7,
+        "target": 13,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_0_1",
+        "source": 0,
+        "target": 1,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_1_2",
+        "source": 1,
+        "target": 2,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_3_10",
+        "source": 3,
+        "target": 10,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_6_8",
+        "source": 6,
+        "target": 8,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_8_12",
+        "source": 8,
+        "target": 12,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_9_13",
+        "source": 9,
+        "target": 13,
+        "base_bitrate_gbps": 600
+      },
+      {
+        "id": "d_10_12",
+        "source": 10,
+        "target": 12,
+        "base_bitrate_gbps": 800
+      },
+      {
+        "id": "d_11_13",
+        "source": 11,
+        "target": 13,
+        "base_bitrate_gbps": 600
+      }
+    ]
+  },
+  "COST239_11_PanEuropean": {
+    "network_name": "COST239_11_PanEuropean",
+    "band": "C",
+    "total_slots": 320,
+    "slot_width_ghz": 12.5,
+    "guard_band_slots": 1,
+    "span_length_km": 100.0,
+    "nodes": [
+      {
+        "id": 0,
+        "name": "N0",
+        "city": "London",
+        "pos": [
+          1.5,
+          4.0
+        ]
+      },
+      {
+        "id": 1,
+        "name": "N1",
+        "city": "Paris",
+        "pos": [
+          2.0,
+          2.8
+        ]
+      },
+      {
+        "id": 2,
+        "name": "N2",
+        "city": "Brussels",
+        "pos": [
+          2.6,
+          3.6
+        ]
+      },
+      {
+        "id": 3,
+        "name": "N3",
+        "city": "Amsterdam",
+        "pos": [
+          2.9,
+          4.4
+        ]
+      },
+      {
+        "id": 4,
+        "name": "N4",
+        "city": "Copenhagen",
+        "pos": [
+          4.5,
+          5.2
+        ]
+      },
+      {
+        "id": 5,
+        "name": "N5",
+        "city": "Berlin",
+        "pos": [
+          5.0,
+          4.0
+        ]
+      },
+      {
+        "id": 6,
+        "name": "N6",
+        "city": "Frankfurt",
+        "pos": [
+          3.8,
+          3.2
+        ]
+      },
+      {
+        "id": 7,
+        "name": "N7",
+        "city": "Prague",
+        "pos": [
+          5.4,
+          3.0
+        ]
+      },
+      {
+        "id": 8,
+        "name": "N8",
+        "city": "Zurich",
+        "pos": [
+          3.5,
+          2.0
+        ]
+      },
+      {
+        "id": 9,
+        "name": "N9",
+        "city": "Milan",
+        "pos": [
+          4.0,
+          1.0
+        ]
+      },
+      {
+        "id": 10,
+        "name": "N10",
+        "city": "Vienna",
+        "pos": [
+          5.8,
+          2.0
+        ]
+      }
+    ],
+    "links": [
+      {
+        "id": "e0_1",
+        "source": 0,
+        "target": 1,
+        "length_km": 400.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e0_2",
+        "source": 0,
+        "target": 2,
+        "length_km": 350.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e0_3",
+        "source": 0,
+        "target": 3,
+        "length_km": 400.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e0_4",
+        "source": 0,
+        "target": 4,
+        "length_km": 1000.0,
+        "spans": 10,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e1_2",
+        "source": 1,
+        "target": 2,
+        "length_km": 300.0,
+        "spans": 3,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e1_6",
+        "source": 1,
+        "target": 6,
+        "length_km": 500.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e1_8",
+        "source": 1,
+        "target": 8,
+        "length_km": 500.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e1_9",
+        "source": 1,
+        "target": 9,
+        "length_km": 650.0,
+        "spans": 7,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e2_3",
+        "source": 2,
+        "target": 3,
+        "length_km": 200.0,
+        "spans": 2,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e2_6",
+        "source": 2,
+        "target": 6,
+        "length_km": 350.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e2_8",
+        "source": 2,
+        "target": 8,
+        "length_km": 500.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e3_4",
+        "source": 3,
+        "target": 4,
+        "length_km": 650.0,
+        "spans": 7,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e3_5",
+        "source": 3,
+        "target": 5,
+        "length_km": 600.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e3_6",
+        "source": 3,
+        "target": 6,
+        "length_km": 400.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e4_5",
+        "source": 4,
+        "target": 5,
+        "length_km": 400.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e4_7",
+        "source": 4,
+        "target": 7,
+        "length_km": 650.0,
+        "spans": 7,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e5_6",
+        "source": 5,
+        "target": 6,
+        "length_km": 450.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e5_7",
+        "source": 5,
+        "target": 7,
+        "length_km": 300.0,
+        "spans": 3,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e5_10",
+        "source": 5,
+        "target": 10,
+        "length_km": 550.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e6_7",
+        "source": 6,
+        "target": 7,
+        "length_km": 450.0,
+        "spans": 5,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e6_8",
+        "source": 6,
+        "target": 8,
+        "length_km": 350.0,
+        "spans": 4,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e7_8",
+        "source": 7,
+        "target": 8,
+        "length_km": 550.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e7_10",
+        "source": 7,
+        "target": 10,
+        "length_km": 300.0,
+        "spans": 3,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e8_9",
+        "source": 8,
+        "target": 9,
+        "length_km": 250.0,
+        "spans": 3,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e8_10",
+        "source": 8,
+        "target": 10,
+        "length_km": 600.0,
+        "spans": 6,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      },
+      {
+        "id": "e9_10",
+        "source": 9,
+        "target": 10,
+        "length_km": 650.0,
+        "spans": 7,
+        "fiber_type": "SMF",
+        "span_types": [
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF",
+          "SMF"
+        ],
+        "is_parallel": false,
+        "is_bypass": false
+      }
+    ],
+    "base_demands_D0": [
+      {
+        "id": "d_0_9",
+        "source": 0,
+        "target": 9,
+        "base_bitrate_gbps": 400
+      },
+      {
+        "id": "d_0_10",
+        "source": 0,
+        "target": 10,
+        "base_bitrate_gbps": 400
+      },
+      {
+        "id": "d_1_5",
+        "source": 1,
+        "target": 5,
+        "base_bitrate_gbps": 400
+      },
+      {
+        "id": "d_1_10",
+        "source": 1,
+        "target": 10,
+        "base_bitrate_gbps": 300
+      },
+      {
+        "id": "d_2_9",
+        "source": 2,
+        "target": 9,
+        "base_bitrate_gbps": 300
+      },
+      {
+        "id": "d_3_9",
+        "source": 3,
+        "target": 9,
+        "base_bitrate_gbps": 300
+      },
+      {
+        "id": "d_4_9",
+        "source": 4,
+        "target": 9,
+        "base_bitrate_gbps": 300
+      },
+      {
+        "id": "d_4_10",
+        "source": 4,
+        "target": 10,
+        "base_bitrate_gbps": 300
+      },
+      {
+        "id": "d_0_5",
+        "source": 0,
+        "target": 5,
+        "base_bitrate_gbps": 300
+      },
+      {
+        "id": "d_0_7",
+        "source": 0,
+        "target": 7,
+        "base_bitrate_gbps": 200
+      },
+      {
+        "id": "d_1_7",
+        "source": 1,
+        "target": 7,
+        "base_bitrate_gbps": 200
+      },
+      {
+        "id": "d_3_10",
+        "source": 3,
+        "target": 10,
+        "base_bitrate_gbps": 200
+      }
+    ]
+  }
+}
